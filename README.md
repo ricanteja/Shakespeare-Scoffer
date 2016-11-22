@@ -15,7 +15,7 @@ Change your directory to the source directory
 >cd C:/path/to/source
 
 Compile and link the source code
->cl /I C:/path/to/SFML/include C:/path/to/SFML/lib/sfml-system.lib C:/path/to/SFML/lib/sfml-window.lib C:/path/to/SFML/lib/sfml-graphics.lib GreenThumb.cpp
+>cl /I ../extlibs/PDCurses/include ../extlibs/PDCurses/lib/pdcurses.lib Scoffer.cpp
 
 The code should compile and produce GreenThumb.exe.
 
