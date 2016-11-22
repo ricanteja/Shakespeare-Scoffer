@@ -17,7 +17,7 @@ Change your directory to the source directory
 Compile and link the source code
 >cl /I ../extlibs/PDCurses/include ../extlibs/PDCurses/lib/pdcurses.lib Scoffer.cpp
 
-The code should compile and produce GreenThumb.exe.
+The code should compile and produce Scoffer.exe.
 
 
 If you are using MinGW open a `Command Prompt` and enter this:
