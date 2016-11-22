@@ -1,14 +1,15 @@
 #include <random>
 #include <cstdio>
 
-#include <curses.h>
+#include <windows.h>
 #include <sapi.h>
+#include <curses.h>
 
 
 int main()
 {
 	// Shakespeare's beautiful bust
-	char* face[30] =
+	const char* face[30] =
 	{
 		"..------..----------..`.:oyhddmmmmmmmmddhhy+::---....``...----...-.-.......-.-",
 		"----...------...---.`./ydmmmmNNNNNNNNNNmmmddys+/---...```---------.-.-------.-",
@@ -42,7 +43,7 @@ int main()
 	};
 
 	// Create our insult lists
-	char* col_a[50] =
+	const char* col_a[50] =
 	{
 		"artless",
 		"bawdy",
@@ -96,7 +97,7 @@ int main()
 		"yeasty"
 	};
 
-	char* col_b[50] =
+	const char* col_b[50] =
 	{
 		"base-court",
 		"bat-fowling",
@@ -150,7 +151,7 @@ int main()
 		"weather-bitten"
 	};
 
-	char* col_c[50] =
+	const char* col_c[50] =
 	{
 		"apple-john",
 		"baggage",
